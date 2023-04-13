@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Encriptador oracle one</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="logo-container">
+                <img src="./img/aluraLogo.svg" alt="Alura latam logo">
+            </div>
+        </div>
+        <div class="main-col">
+            <div class="main-col-container">
+                <textarea name="mainTextarea" id="mainTextarea" class="main-textarea"
+                    placeholder="Ingrese el texto aqui"></textarea>
+
+                <div class="text-btn-container">
+                    <p>
+                        <img src="./img/cautionLogo.svg" alt="i"> Solo letras minúsculas y sin acentos
+                    </p>
+                    <div class="buttons">
+                        <button class="btn encript-btn" id="encriptBtn">Encriptar</button>
+                        <button class="btn decript-btn" id="decriptBtn">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="result-col">
+            <div class="result-col-container nf" id="resultNotFound">
+                <div class="not-found">
+                    <div class="draw">
+                        <img src="./img/nothingLogo.svg" alt="No resultados">
+                    </div>
+                    <div class="text">
+                        <h2>Ningún mensaje fue encontrado</h2>
+                        <p>
+                            Ingresa el texto que desees encriptar o desencriptar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="result-col-container found hidden" id="resultFound">
+                <div class="text-found">
+                    <div class="text">
+                        <p id="resultText"></p>
+                    </div>
+                    <div class="btns">
+                        <button class="btn" id="copyBtn">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
