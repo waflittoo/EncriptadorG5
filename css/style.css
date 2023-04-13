@@ -20,13 +20,11 @@
 
 
 body {
-    /* outline: 5px solid #770b0b; */
     background: #F3F5FC;
     height: calc(100vh - 100px);
 }
 
 body .container {
-    /* outline: 5px solid #0b770b; */
     width: 90%;
     margin: 40px auto;
     display: flex;
@@ -36,9 +34,6 @@ body .container {
     max-height: 1000px;
 }
 
-/* body .container .logo{
-    outline: 5px solid #0b7769;
-} */
 body .container .logo .logo-container img {
     width: 30px;
 }
@@ -46,21 +41,18 @@ body .container .logo .logo-container img {
 
 
 body .container .main-col {
-    /* outline: 5px solid #77750b; */
     height: 100%;
     margin: 0px 80px;
     width: 100%;
 }
 
 body .container .main-col .main-col-container {
-    /* outline: 5px solid #f3ef00; */
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
 body .container .main-col .main-col-container .main-textarea {
-    /* outline: 5px solid #fffd9a; */
     margin: 50px auto;
     resize: none;
     margin-top: 100px;
@@ -104,10 +96,6 @@ body .container .main-col .main-col-container .text-btn-container .buttons .btn.
 }
 
 
-/* body .container .result-col{
-    outline: 5px solid #730b77;
-
-} */
 body .container .result-col .result-col-container {
     background: #fff;
     width: 400px;
@@ -149,7 +137,6 @@ body .container .result-col .result-col-container.found .text-found .text p {
     line-height: 150%;
     font-size: 24px;
     max-width: 100%;
-    /* overflow: hidden; */
     color: #495057;
     text-align: left;
 }
